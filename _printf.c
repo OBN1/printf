@@ -36,7 +36,7 @@ int _printf(const char *format, ...)
 				else
 				{
 					len += function(arguments, buffer, ibuf);
-					i += ev_print_func(fomat, i + 1);
+					i += ev_print_func(format, i + 1);
 				}
 			} i++;
 		}
