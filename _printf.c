@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 				{
 					if (format[i + 1] == ' ' && !format[i + 2])
 						return (-1);
-					handl_buf(buffer, fomat[i], ibuf), len++, i--;
+					handl_buf(buffer, format[i], ibuf), len++, i--;
 				}
 				else
 				{
