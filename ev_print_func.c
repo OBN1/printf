@@ -12,7 +12,7 @@ int ev_print_func(const char *s, int index)
 		{"s", print_str},
 		{"%", print_prg}
 	};
-	int i = 0, j = 0, first_ndex;
+	int i = 0, j = 0, first_index;
 
 	first_index = index;
 	while (pr[i].type_arg)
