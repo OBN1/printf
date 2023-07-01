@@ -8,7 +8,7 @@
  * Return: 1 (success).
  */
 
-int print_prg(char *, unsigned int)
+int print_prg(va_list a __attribute__((unused)), char *buf, unsigned int i)
 {
 	handl_buf(buf, '%', i);
 
