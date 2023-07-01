@@ -10,7 +10,7 @@ int ev_print_func(const char *s, int index)
 	print_t pr[] = {
 		{"c", print_chr},
 		{"s", print_str},
-		{"%", print_prg}
+		{" %", print_prg}
 	};
 	int i = 0, j = 0, first_index;
 
